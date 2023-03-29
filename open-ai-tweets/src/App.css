@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #f3f6fc;
+}
+.content{
+  padding: 16px 6% 0;
+  display: flex;
+  --mdc-shape-small: 28px;
+}
+.header {
+  height: 100vh;
+  background-color: #222;
+}
+
+.main {
+  flex: 1;
+  background-color: #fff;
+}
+
+.footer {
+  height: 100vh;
+  background-color: #333;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
